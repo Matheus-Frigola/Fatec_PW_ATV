@@ -1,0 +1,22 @@
+<h3>Fale Conosco</h3>
+Ola seja bem vindo a nossa loja virtual, qualquer
+duvida estamos a disposição, entre contato pelo
+formulario abaixo:
+<br><br>
+<h4>{{alerta}}</h4><br><br>
+nome: <input type="text" id="nome" placeholder="digite seu nome completo" />
+<br>
+email:<input type="email" id="email" placeholder="informe seu email correto!" />
+<br>
+assunto:<select id="assunto">
+    <option>Duvidas com produtos</option>
+    <option>Duvidas com pedidos</option>
+    <option>Problemas gerais</option>
+    <option>Criticas e sugestões</option>
+</select><br>
+mensagem:<textarea id="mensagem" rows="5" cols="50"></textarea>
+<br>
+<input type="checkbox" id="copia">Desejo receber uma copia desse email
+<br>
+<button (click)="enviar();">Enviar</button>
+
